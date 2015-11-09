@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
 	<title>TEAM Soluciones</title> 
-	<meta name="description" content="BlackTie.co - Free Handsome Bootstrap Themes" />	    
+	<meta name="description" content="TEAM Soluciones" />	    
 	<meta name="keywords" content="themes, bootstrap, free, templates, bootstrap 3, freebie,">
 	<meta property="og:title" content="">
 
@@ -290,6 +290,14 @@
 			 var intro = document.getElementById('intro');
   			intro.style.marginTop = - intro.offsetHeight - 256  + 'px';
 		});
+
+	$(document).ready(function(e) {
+		if($(window).width() <= 598){
+  				$('#home-row-2').hide();
+  				$('#intro').css("marginTop", -500);
+  			}
+		});
+
 	</script>
 
 </html>
