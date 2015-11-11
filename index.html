@@ -33,7 +33,7 @@
           <li><a href="#features">Features</a></li>
           <li><a href="#reviews">Reviews</a></li>
           <!--<li><a href="#pricing">Pricing</a></li>-->
-          <li><a href="#team">Team</a></li>
+          <!--<li><a href="#team">Team</a></li>-->
           <li><a href="#contact">Contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
@@ -48,7 +48,7 @@
   
   <!--welcome message-->
   
-  <section class="container text-center welcome-message">
+    <div id="particles"><div id="intro"><section class="container text-center welcome-message">
     <div class="row">
       <div class="col-md-12">
         <h1>Optimizamos los procesos de su negocio</h1>
@@ -59,7 +59,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div></div></section>
   
   <!--welcome message end--> 
   
@@ -223,7 +223,7 @@
         
         <!--review 1-->
         
-        <figure class="text-center"><img src="img/review-1.jpg" alt="face" class="img-circle"> </figure>
+        <figure class="text-center"><img src="img/nosotros/francisco.jpg" style="width=190px; height:190px" alt="face" class="img-circle"> </figure>
         <blockquote>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, repellat, voluptatem eveniet et illum itaque excepturi repudiandae officiis quibusdam deleniti. </p>
           <cite>— Ashley Doe, CEO Abc Organisation</cite> </blockquote>
@@ -235,7 +235,7 @@
         
         <!--review 2-->
         
-        <figure class="text-center"><img src="img/review-2.jpg" alt="face" class="img-circle"> </figure>
+        <figure class="text-center"><img src="img/nosotros/jorge.jpg" style="width=190px; height:190px" alt="face" class="img-circle"> </figure>
         <blockquote>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, repellat, voluptatem eveniet et illum itaque excepturi repudiandae officiis quibusdam deleniti. </p>
           <cite>— John Doe, CEO Abc Organisation</cite> </blockquote>
@@ -247,7 +247,7 @@
         
         <!--review 3-->
         
-        <figure class="text-center"><img src="img/review-3.jpg" alt="face" class="img-circle"> </figure>
+        <figure class="text-center"><img src="img/nosotros/hernan.jpg" style="width=190px; height:190px" alt="face" class="img-circle"> </figure>
         <blockquote>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, repellat, voluptatem eveniet et illum itaque excepturi repudiandae officiis quibusdam deleniti. </p>
           <cite>— Michael Doe, CEO Xyz Organisation</cite> </blockquote>
@@ -336,7 +336,7 @@
 <!--cta section end--> 
 
 <!--Team-->
-
+<!--
 <section class="team section-spacing text-center" id="team">
   <div class="container">
     <header class="section-header">
@@ -350,16 +350,16 @@
             <figcaption>
               <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleifend arcu. Lorem ipsum dolor sit amet consectetur.</p>
-                
+                -->
                 <!--social-->
-                
+                <!--
                 <ul class="social">
                   <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 </ul>
-                
+                -->
                 <!--social end--> 
-                
+                <!--
               </div>
             </figcaption>
           </figure>
@@ -375,16 +375,16 @@
             <figcaption>
               <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleifend arcu. Lorem ipsum dolor sit amet consectetur.</p>
-                
+                -->
                 <!--social-->
-                
+                <!--
                 <ul class="social">
                   <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 </ul>
-                
+                -->
                 <!--social end--> 
-                
+                <!--
               </div>
             </figcaption>
           </figure>
@@ -400,16 +400,16 @@
             <figcaption>
               <div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleifend arcu. Lorem ipsum dolor sit amet consectetur.</p>
-                
+                -->
                 <!--social-->
-                
+                <!--
                 <ul class="social">
                   <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 </ul>
-                
+                -->
                 <!--social end--> 
-                
+                <!--
               </div>
             </figcaption>
           </figure>
@@ -422,7 +422,7 @@
     </div>
   </div>
 </section>
-
+-->
 <!--Team end--> 
 
 <!--Twitter feed -->
@@ -520,5 +520,17 @@
 <script src="js/main.js"></script> 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
 <script src="js/gmap.js"></script>
+<script src="js/jquery.particleground.js"></script>
+<script>
+    $(document).ready(function(e) {
+        particleground(document.getElementById('particles'), {
+          dotColor: '#5cbdaa',
+          lineColor: '#5cbdaa'
+        });
+       var intro = document.getElementById('intro');
+         intro.style.marginTop = - intro.offsetHeight  + 'px';
+    });
+
+</script>
 </body>
 </html>
