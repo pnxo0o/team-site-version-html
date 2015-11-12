@@ -14,21 +14,24 @@
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <link href="css/magnific-popup.css" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 
 <!--hero section-->
-<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-     <header class="hero-section"> 
+
+<header class="hero-section"> 
   
   <!--navigation-->
-
+  
   <nav class="navbar navbar-default">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         <a class="navbar-brand" href=""><img class="logo-nav" alt="logo" src="img/logo-nav.png"><img class="logo-head" alt="logo" src="img/logo-head.png"></a> </div>
-      
+      <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
         <ul class="nav navbar-nav nav-left">
           <li><a href="#features">Features</a></li>
           <li><a href="#reviews">Reviews</a></li>
@@ -36,11 +39,8 @@
           <li><a href="#team">Team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><i class="fa fa-sign-in"></i> Login</a></li>
-          <li><a href="#" class="btn">JOIN US</a></li>
-        </ul>
       </div>
+    </div>
   </nav>
   
   <!--navigation end--> 
@@ -61,7 +61,7 @@
   </section>
   
   <!--welcome message end--> 
-  </div>
+  
 </header>
 
 <!--hero section end--> 
@@ -116,7 +116,37 @@
 <!--benefits end--> 
 
 <!--Features-->
-
+  <div id="cbp-so-scroller" class="cbp-so-scroller">
+        <section class="cbp-so-section">
+          <article class="cbp-so-side cbp-so-side-left">
+            <h2>Sistema de información Georefenciada</h2>
+            <p>Desarrollamos un sistema capaz de mostrar de desplegar puntos de interés en dispositivos móviles a partir de la ubicación del usuario, pudiendo administrar estos desde una interfaz web. </p>
+            <ul>
+              <li>Uso de tecnología de georeferencia</li>
+              <li>Construcción de aplicaciones móviles</li>
+              <li>Participante en torneos de innovación</li>
+            </ul>
+          </article>
+          <figure class="cbp-so-side cbp-so-side-right">
+            <img src="img/monitor.png" alt="feature">
+          </figure>
+        </section>
+         <section class="cbp-so-section">
+          <figure class="cbp-so-side cbp-so-side-left">
+            <img src="img/monitor.png" alt="feature">
+          </figure>
+          <article class="cbp-so-side cbp-so-side-right">
+            <h2>Sistema de información Georefenciada</h2>
+            <p>Desarrollamos un sistema capaz de mostrar de desplegar puntos de interés en dispositivos móviles a partir de la ubicación del usuario, pudiendo administrar estos desde una interfaz web. </p>
+            <ul>
+              <li>Uso de tecnología de georeferencia</li>
+              <li>Construcción de aplicaciones móviles</li>
+              <li>Participante en torneos de innovación</li>
+            </ul>
+          </article>
+        </section>
+      </div>
+     </div>
 <div class="features section-spacing">
   <div class="container"> 
     
@@ -519,5 +549,10 @@
 <script src="js/main.js"></script> 
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script> 
 <script src="js/gmap.js"></script>
+<script src="js/classie.js"></script>
+    <script src="js/cbpScroller.js"></script>
+    <script>
+      new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+    </script>
 </body>
 </html>
