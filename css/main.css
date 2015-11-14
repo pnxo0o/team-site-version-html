@@ -94,7 +94,7 @@ strong { font-weight: 600; }
    ========================================================================== */ 
    
 .hero-section {
-  background: url(../img/fondo.jpg) center center no-repeat scroll;
+  background: url(../img/bg.jpg) center center no-repeat scroll;
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
@@ -614,8 +614,11 @@ blockquote cite {
 
 .team div[class^="col-"]:nth-child(3) .team-info h5 { margin: 0; }
 
-.team p { color: #333; }
-
+.team p  { color: #fff; }
+.team-descricion p {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400; }
 .team-details figure {
   position: relative;
   overflow: hidden;
@@ -630,7 +633,7 @@ blockquote cite {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(245, 99, 99, 0.95);
+  background-color: rgba(47, 154, 245, 0.95);
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, 100%, 0);
@@ -963,7 +966,7 @@ blockquote::before {
 .features article { margin-top: 6em; }
 
 .features img {
-  /* aaaaaaa max-width: none; */
+  max-width: none;
   position: absolute;
   width: 900px;
   top: 0;
