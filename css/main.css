@@ -614,7 +614,7 @@ blockquote cite {
 
 .team div[class^="col-"]:nth-child(3) .team-info h5 { margin: 0; }
 
-.team p { color: #fff; }
+.team p { color: #333; }
 
 .team-details figure {
   position: relative;
