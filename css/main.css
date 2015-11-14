@@ -94,7 +94,7 @@ strong { font-weight: 600; }
    ========================================================================== */ 
    
 .hero-section {
-  background: url(../img/bg.jpg) center center no-repeat scroll;
+  background: url(../img/fondo.jpg) center center no-repeat scroll;
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
@@ -963,7 +963,7 @@ blockquote::before {
 .features article { margin-top: 6em; }
 
 .features img {
-  max-width: none;
+  /* aaaaaaa max-width: none; */
   position: absolute;
   width: 900px;
   top: 0;
