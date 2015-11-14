@@ -4,7 +4,7 @@
 }
 
 .cbp-so-section {
-	margin-bottom: 15em;
+/* camilito	margin-bottom: 15em;*/
 }
 
 /* Clear floats of children */
@@ -21,13 +21,16 @@
 /* Text styling */
 .cbp-so-section h2 {
 	font-size: 5em;
+/* lo comento porque si
 	font-weight: 300;
-	line-height: 1;
+	line-height: 1;*/
 }
 
 .cbp-so-section p {
+	/* lo comento porque si
 	font-size: 2em;
 	font-weight: 300;
+	*/
 }
 
 /* Sides */
