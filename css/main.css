@@ -966,7 +966,7 @@ blockquote::before {
 .features article { margin-top: 6em; }
 
 .features img {
-  max-width: none;
+  /*max-width: none;*/
   position: absolute;
   width: 900px;
   top: 0;
