@@ -19,7 +19,7 @@ function initialize() {
     var contentString = '<div class="map-info-box">' 
     + '<div class="map-head">' 
     + '<h3>Launch</h3></div>' 
-    + '<p class="map-address"><i class="fa fa-map-marker"></i> Viña del Mar, Chile <br><i class="fa fa-phone"></i> +56 9 5879 6712<br><span class="map-email"><i class="fa fa-envelope"></i> info@sitename.com</span></p>' 
+    + '<p class="map-address"><i class="fa fa-map-marker"></i> Viña del Mar, Chile <br><i class="fa fa-phone"></i> +56 9 5879 6712<br><span class="map-email"><i class="fa fa-envelope"></i> braindev@gmail.com</span></p>' 
     + '<p><a href="https://www.google.com/maps/place/Miraflores,+Vi%C3%B1a+del+Mar,+Regi%C3%B3n+de+Valpara%C3%ADso,+Chile/@-33.03679,-71.5324478,17z/data=!3m1!4b1!4m2!3m1!1s0x9689de63fb06f1b7:0x9aa7bfce62d57b12" target="_blank">Open on Google Maps</a></p></div>';
     
     
